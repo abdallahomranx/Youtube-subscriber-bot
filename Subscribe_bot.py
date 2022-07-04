@@ -22,7 +22,7 @@ class SubBot:
     bellButtonClick = "Bell[1].click();"    
 
     # Type here your channel url:
-    url = input("Enter your channel link = ")
+    url = input("https://www.youtube.com/channel/UCdqg2eiBcCgwRCaY-0ktf4Q = ")
     
     listOfBrowser = ['start chrome '+url,'start firefox '+url]
 
@@ -30,7 +30,7 @@ class SubBot:
 
     waitTime = 1
     flag = True
-    count = 0
+    count = 1
 
     def is_connected(self):
         try:
