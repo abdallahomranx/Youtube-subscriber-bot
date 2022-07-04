@@ -30,7 +30,7 @@ class SubBot:
 
     waitTime = 1
     flag = True
-    count = 0
+    count = 54687
 
     def is_connected(self):
         try:
